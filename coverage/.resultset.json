@@ -3,12 +3,14 @@
     "coverage": {
       "/Users/ruthmoog/Documents/Programming Projects/Ruby/secret-santa-mailer/spec/hello_world_spec.rb": [
         1,
-        1,
-        1,
+        null,
+        0,
+        0,
+        0,
         null,
         null
       ]
     },
-    "timestamp": 1566226167
+    "timestamp": 1566229121
   }
 }
