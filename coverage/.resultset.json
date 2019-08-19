@@ -15,6 +15,15 @@
         null,
         1,
         null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/ruthmoog/Documents/Programming Projects/Ruby/secret-santa-mailer/lib/santa.rb": [
@@ -25,9 +34,13 @@
         1,
         1,
         null,
+        null,
+        1,
+        2,
+        null,
         null
       ]
     },
-    "timestamp": 1566231458
+    "timestamp": 1566232111
   }
 }
