@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2019-08-19T17:11:50+01:00">2019-08-19T17:11:50+01:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2019-08-19T17:17:38+01:00">2019-08-19T17:17:38+01:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -61,7 +61,7 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#19d7b43b26a5e010b260717a48ba45510953827f" class="src_link" title="spec/hello_world_spec.rb">spec/hello_world_spec.rb</a></td>
+        <td class="strong"><a href="#1332fda8c735465db37ba494bf56f19effd4b5fc" class="src_link" title="spec/santa_spec.rb">spec/santa_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>14</td>
         <td>7</td>
@@ -127,13 +127,13 @@
         <li class="covered" data-hits="1" data-linenumber="5">
           <span class="hits">1</span>
           
-          <code class="ruby">  def receivers(_list_of_givers)</code>
+          <code class="ruby">  def receivers(list_of_givers)</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="6">
           <span class="hits">1</span>
           
-          <code class="ruby">    %w[Dancer Dasher]</code>
+          <code class="ruby">    list_of_givers.rotate(1)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="7">
@@ -153,9 +153,9 @@
 </div>
 
       
-        <div class="source_table" id="19d7b43b26a5e010b260717a48ba45510953827f">
+        <div class="source_table" id="1332fda8c735465db37ba494bf56f19effd4b5fc">
   <div class="header">
-    <h3>spec/hello_world_spec.rb</h3>
+    <h3>spec/santa_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
       <b>7</b> relevant lines. 
@@ -200,19 +200,19 @@
         <li class="covered" data-hits="1" data-linenumber="6">
           <span class="hits">1</span>
           
-          <code class="ruby">  it &#39;creates a list of receivers&#39; do</code>
+          <code class="ruby">  it &#39;creates a rotated list of receivers&#39; do</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="7">
           <span class="hits">1</span>
           
-          <code class="ruby">    list_of_givers = %w[Dasher Dancer]</code>
+          <code class="ruby">    list_of_givers = %w[Dasher Dancer Prancer Vixen]</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="8">
           <span class="hits">1</span>
           
-          <code class="ruby">    list_of_receivers = %w[Dancer Dasher]</code>
+          <code class="ruby">    list_of_receivers = %w[Dancer Prancer Vixen Dasher]</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="9">

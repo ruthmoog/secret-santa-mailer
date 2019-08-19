@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/ruthmoog/Documents/Programming Projects/Ruby/secret-santa-mailer/spec/hello_world_spec.rb": [
+      "/Users/ruthmoog/Documents/Programming Projects/Ruby/secret-santa-mailer/spec/santa_spec.rb": [
         null,
         null,
         1,
@@ -28,6 +28,6 @@
         null
       ]
     },
-    "timestamp": 1566231110
+    "timestamp": 1566231458
   }
 }

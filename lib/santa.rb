@@ -2,7 +2,7 @@
 
 # Matches each giver with a receiver
 class Santa
-  def receivers(_list_of_givers)
-    %w[Dancer Dasher]
+  def receivers(list_of_givers)
+    list_of_givers.rotate(1)
   end
 end
