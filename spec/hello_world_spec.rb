@@ -1,7 +1,8 @@
 require 'santa'
 
-RSpec.describe "Hello World" do
-  it "says hello world" do
-    expect(Santa.new.say_hi).to eq("Hello world!")
+RSpec.describe "Santa" do
+  it "matches a giver with a receiver" do
+    secret_santa = Santa.new
+    expect(secret_santa.match(["Dasher", "Dancer"])).to eq(["Dancer", "Dasher"])
   end
 end

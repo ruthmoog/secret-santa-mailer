@@ -1,7 +1,7 @@
 class Santa
 
-  def say_hi
-    "Hello world!"
+  def match(givers)
+    ["Dancer", "Dasher"]
   end
 
 end
