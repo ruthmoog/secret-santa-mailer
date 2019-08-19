@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2019-08-19T17:28:31+01:00">2019-08-19T17:28:31+01:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2019-08-19T17:52:45+01:00">2019-08-19T17:52:45+01:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -32,8 +32,8 @@
   <a name="AllFiles"></a>
   <div>
     <b>2</b> files in total.
-    <b>17</b> relevant lines. 
-    <span class="green"><b>17</b> lines covered</span> and
+    <b>18</b> relevant lines. 
+    <span class="green"><b>18</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -63,9 +63,9 @@
       <tr>
         <td class="strong"><a href="#1332fda8c735465db37ba494bf56f19effd4b5fc" class="src_link" title="spec/santa_spec.rb">spec/santa_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>23</td>
-        <td>12</td>
-        <td>12</td>
+        <td>24</td>
+        <td>13</td>
+        <td>13</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -182,8 +182,8 @@
     <h3>spec/santa_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>12</b> relevant lines. 
-      <span class="green"><b>12</b> lines covered</span> and
+      <b>13</b> relevant lines. 
+      <span class="green"><b>13</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -287,28 +287,28 @@
           <code class="ruby">    list_of_givers = %w[Dasher Dancer Prancer Vixen]</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="17">
+        <li class="covered" data-hits="1" data-linenumber="17">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    qty_of_givers = list_of_givers.count</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="18">
+        <li class="covered" data-hits="1" data-linenumber="19">
           <span class="hits">1</span>
           
           <code class="ruby">    secret_santa = Santa.new</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="19">
+        <li class="never" data-hits="" data-linenumber="20">
           
           
           <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="20">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    expect(secret_santa.shuffle(list_of_givers)).not_to eq(list_of_givers)</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="21">
@@ -317,13 +317,19 @@
           <code class="ruby">    expect(secret_santa.shuffle(list_of_givers)).to be_kind_of(Array)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="22">
+        <li class="covered" data-hits="1" data-linenumber="22">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    secret_santa.shuffle(list_of_givers) {  should have_exactly(qty_of_givers).items }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="23">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="23">
+        <li class="never" data-hits="" data-linenumber="24">
           
           
           <code class="ruby">end</code>

@@ -14,10 +14,13 @@ RSpec.describe 'Santa' do
 
   it 'shuffles the list of givers' do
     list_of_givers = %w[Dasher Dancer Prancer Vixen]
+    qty_of_givers = list_of_givers.count
 
     secret_santa = Santa.new
 
-    expect(secret_santa.shuffle(list_of_givers)).not_to eq(list_of_givers)
     expect(secret_santa.shuffle(list_of_givers)).to be_kind_of(Array)
+    secret_santa.shuffle(list_of_givers) do
+      should have_exactly(qty_of_givers).items
+    end
   end
 end
