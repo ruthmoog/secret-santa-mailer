@@ -4,13 +4,22 @@
       "/Users/ruthmoog/Documents/Programming Projects/Ruby/secret-santa-mailer/spec/hello_world_spec.rb": [
         1,
         null,
-        0,
-        0,
-        0,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/ruthmoog/Documents/Programming Projects/Ruby/secret-santa-mailer/lib/santa.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
         null,
         null
       ]
     },
-    "timestamp": 1566229121
+    "timestamp": 1566229261
   }
 }
