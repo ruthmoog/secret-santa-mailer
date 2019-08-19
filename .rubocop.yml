@@ -1,4 +1,8 @@
 Metrics/BlockLength:
   Exclude:
     - 'spec/*'
+
+Metics/LineLength:
+  Exclude:
+    - 'spec/spec_helper.rb'
     
